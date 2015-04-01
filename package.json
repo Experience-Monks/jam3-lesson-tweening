@@ -1,0 +1,37 @@
+{
+  "name": "jam3-lesson-tweening",
+  "version": "1.0.0",
+  "description": "This is a browser based lesson which teaches about Tweening engines",
+  "main": "index.js",
+  "bin": {
+    "jam3-lesson-tweening": "index.js"
+  },
+  "preferGlobal": true,
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "browser-lessons": "^1.2.2",
+    "gsap": "^1.16.1",
+    "raf-loop": "^1.0.1",
+    "tape": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "tween,tweening,browser,lesson,workshop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/jam3-lesson-tweening.git"
+  },
+  "homepage": "https://github.com/Jam3/jam3-lesson-tweening",
+  "bugs": {
+    "url": "https://github.com/Jam3/jam3-lesson-tweening/issues"
+  }
+}
