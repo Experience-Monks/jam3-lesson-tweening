@@ -4,7 +4,7 @@ var test = require('tape');
 require('browser-lessons/test-out');
 
 var toTween = { x: 0, y: 0 };
-var elOut = document.getElementById('outPut');
+var elOut = document.createElement('pre');
 var startTime = Date.now();
 
 var engine = rafLoop( function(dt) {
@@ -14,6 +14,8 @@ var engine = rafLoop( function(dt) {
 	elOut.innerHTML = JSON.stringify(toTween, undefined, '  ');
 	toTween._gsTweenID = tweenID;
 });
+
+document.body.appendChild(elOut);
 engine.start();
 
 test('testing tween', function(t) {
