@@ -46,9 +46,10 @@ test('Testing your tween', function(t) {
 	usersExport(toTween, function() {
 		
 		t.pass('Called callback');
-		t.ok(Math.floor(( Date.now() - startTime ) / 1000 ) === 3, 'Tween finished in 3 seconds');
-		t.equal(toTween.x, 133, 'x is 133');
-		t.equal(toTween.y, 120, 'y is 120');
+		t.equal(Math.floor(( Date.now() - startTime ) ), 1000 , 'Tween finished in 1 seconds');
+		t.equal(toTween.style.transform, 'matrix(1, 0, 0, 1, 0, 0)', 'Matrix is (1, 0, 0, 1, 0 ,0)');
+		t.equal(toTween.style.opacity, '1', 'opacity is 1');
+		t.equal(toTween.style.visibility, 'inherit', 'visibility is set to inherit');
 		t.end();
 	});
 });
