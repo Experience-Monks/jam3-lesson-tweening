@@ -4,7 +4,7 @@ A Tweening Engine is function that moves a numeric value from one number to anot
 
 ## To tween or not To tween
 
-Below is an example of a Tween that is using a tweening library called Greensock or GSAP (http://greensock.com/) that we commonly use here at Jam3. GSAP provides a series of methods for creating tweens but we're going to start with the basics here. 
+Below is an example of a Tween that is using a tweening library called Greensock or GSAP (http://greensock.com/) that we commonly use here at Jam3. GSAP provides a series of methods for creating tweens but we're going to start with the basics here.
 
 ```javascript
 var Tween = require('gsap');
@@ -12,7 +12,7 @@ var toTween = {
     x: 0,
     y: 0
 };
-// Syntax Tween.to(objectToTween, time, {valuesToTween})
+// Syntax Tween.to(object, time, {vars})
 Tween.to(toTween, 0.5, {x: 5, y: 5});
 ```
 
@@ -20,7 +20,7 @@ The `to` function is the most common, simply it tweens a variable of an object '
 
 ## I heard you liked callbacks...
 
-One of main reasons we use a tweening engine as apposed to CSS transitions and the like is that it allows us to know when the animation is complete and exicute some code when it's finished. This is extremely powerful and useful as it allows us to either chain animations or setup events to fire.
+One of main reasons we use a tweening engine as apposed to CSS transitions and the like is that it allows us to know when the animation is complete and execute some code when it's finished. This is extremely powerful and useful as it allows us to either chain animations or setup events to ensure a smooth transition throughout our experince.
 
 ```javascript
 var Tween = require('gsap');
@@ -36,7 +36,7 @@ function onCompleteFunction(){
 Tween.to(toTween, 0.5, {x: 100, y: 100, onComplete: onCompleteFunction });
 ```
 
-As you can see `onComplete` is a special variable in our variables object within the `to` function (as well as every other GSAP function). There are more special variables like this and we'll talk more about them later. Even `x` and `y` have their own special properties when used to animate a DOM element. Stay tuned! 
+`onComplete` is a special variable in our vars object that accepts a function to fire on the tweens completion. There are more special variables like this and we'll talk about them later. Even `x` and `y` have their own special properties when used to a DOM element. Stay tuned!
 
 ## Get to work!
 
