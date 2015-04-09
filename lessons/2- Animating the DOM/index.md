@@ -37,4 +37,4 @@ This is great for animation for a few reasons.
 
 ## Get to work!
 
-No go and try and animate your own DOM element. Open the folder you ran `jam3-tween-lesson` in, in your editor of choice. There you'll see a folder called `2- Animating the DOM`. In that folder you'll see a `practice` and `solution` folder. Inside the `practice` folder go ahead and create a solution. If you need to "cheat" you can always take a look at the `solution` folder.
+No go and try and animate your own DOM element. Open the folder you ran `jam3-tween-lesson` in, in your editor of choice. There you'll see a folder called `/2 - Animating the DOM`. In that folder you'll see a `practice` and `solution` folder. Inside the `practice` folder go ahead and create a solution. If you need to "cheat" you can always take a look at the `solution` folder.
