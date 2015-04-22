@@ -27,7 +27,7 @@ There are a lot of ways to position a DOM element. Depending on your needs you m
 
 This is where CSS Transforms come in and it's what GSAP is using when we use `x,y,z`. GSAP translates these properties into the approperiate CSS Transform attribute depending on what needs to be animated. If you use only 2D properties like `x`, `y` or `scale` it will use `transform: matrix()`. If you start throwing `z` into the mix it will make use of `transform: matrix3d()`.
 
->If you know how to use Matrices then you know how powerful they can be but also very hard to learn. Though if you don't know how to use them, you don't need to worry about it as GSAP does the calculations for you. 
+    If you know how to use Matrices then you know how powerful they can be but also very hard to learn. Though if you don't know how to use them, you don't need to worry about it as GSAP does the calculations for you. 
 
 This is great for animation for a few reasons.
 1. All values start at `0`. It means that you're always controling your animation from the object's root position so that you don't have to keep track of where you starting position is because your starting position is always `0`
