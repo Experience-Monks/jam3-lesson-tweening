@@ -18,14 +18,14 @@ var engine = rafLoop( function(dt) {
 document.body.appendChild(elOut);
 engine.start();
 
-test('testing tween', function(t) {
+test('Testing your tween', function(t) {
 
 	t.timeoutAfter(4000);
 
 	usersExport(toTween, function() {
 		
-		t.pass('called callback');
-		t.ok(Math.floor(( Date.now() - startTime ) / 1000 ) === 3, 'tween was 3 seconds');
+		t.pass('Called callback');
+		t.ok(Math.floor(( Date.now() - startTime ) / 1000 ) === 3, 'Tween finished in 3 seconds');
 		t.equal(toTween.x, 133, 'x is 133');
 		t.equal(toTween.y, 120, 'y is 120');
 		t.end();
