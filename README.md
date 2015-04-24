@@ -1,13 +1,15 @@
-# jam3-tween-lesson
+##### [jam3-lesson](https://github.com/Jam3/jam3-lesson) » tweening
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+---
+
+# jam3-lesson-tweening
 
 This is a browser based lesson which teaches about Tweening engines
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/jam3-tween-lesson.png)](https://www.npmjs.com/package/jam3-tween-lesson)
+[![NPM](https://nodei.co/npm/jam3-lesson-tweening.png)](https://www.npmjs.com/package/jam3-lesson-tweening)
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/Jam3/jam3-tween-lesson/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Jam3/jam3-lesson-tweening/blob/master/LICENSE.md) for details.
